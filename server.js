@@ -35,7 +35,7 @@ router.post("/message", function (req, res) {
   //   res.send("hello handsome, are posting");
 
   if (req.query.error == "ok") {
-    response.error(req, res, "this is a error fucking monkey", 500);
+    response.error(req, res, "this is a error fucking monkey", 404);
   } else {
     response.success(req, res, "hello from post method", 201);
   }
