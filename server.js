@@ -48,4 +48,3 @@ router.post("/message", function (req, res) {
 app.use("/app", express.static("public"));
 
 app.listen(3000);
-console.log("the application is listen in: http://localhost:3000 ");
